@@ -1,0 +1,4 @@
+echo -e "\e[34mseihan\e[0m";
+read -p 'I LoVe You' userinput1;
+#
+oke
