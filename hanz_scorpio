@@ -1,0 +1,58 @@
+clear
+figlet "Tools
+echo "--------------------------------"
+echo "Autor    :Hanz
+echo "facebook :https://www.facebook.com/izzudin.alqazzam.5 
+echo "GIThub   :https://github.com/hanz212/scorpio
+echo "--------------------------------"
+echo "        Nurlaila
+echo "           💙            
+echo "
+echo " pilih menu tools nya!!!
+echo "[1] Darkfb"
+echo "[2] MBF"       
+echo "[3] shellphish"
+echo "[4] Hack CCTV"
+echo "[5] install bahan"
+read -p "[?] pilih : " pil:
+#
+if [ $pil =1 ]
+then
+git clone https://github.com/B4N9S4N2-ID/DarkPremium
+cd darkpremium
+python2 darkpremium.py
+fi
+#
+if [ $pil =2 ]
+then
+git clone https://github.com/pirmansx/MBF
+cd mbf
+python2 MBF.py  
+fi
+#
+if [ $pil =3 ]
+then
+git clone https://github.com/thelinuxchoice/shellphish
+cd shellphish
+bash shellphish.sh
+fi
+#
+if [ $pil =4 ]
+then
+git clone https://github.com/kancotdiq/ipcs
+cd ipcs
+python2 ipcs.py
+fi
+#
+if [ $pil =5 ]
+then
+apt update && apt upgrade
+pkg install nano
+pkg install python
+pkg install git
+pkg install python2
+pip install requests mechanize
+pip2 install requests mechanize
+pkg install php
+fi
+
